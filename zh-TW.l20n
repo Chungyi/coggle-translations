@@ -280,8 +280,8 @@
 }>
 
 <billing-header """
-    <h3>Billing Details</h3>
-    <div>We think you'll love your Coggle subscription, if for any reason you're not completely satisfied, get in touch at <b>hello@coggle.it</b> and we'll make it right.</div>
+    <h3>帳單明細</h3>
+    <div>我們認為您會喜歡繼續訂閱 Coggle，如果有任何你不滿意的地方，歡迎聯繫 <b>hello@coggle.it</b>，我們會儘快改進。</div>
 """>
 <billing-on-file """
   <p>The card we have on file for you ends in <b>{{ $cardEndsIn }}</b>, it expires on <b>{{ $cardExpires }}</b>.</p>
@@ -340,9 +340,9 @@
   <a class='back'>返回</a>
 """>
 
-<summary-free-plan "You don't have a subscription yet. <a>Upgrade now!</a></p>">
-<summary-active-plan "You're on the <code>{{ $planName }}</code> plan. <a>Cancel subscription</a> or <a href='/plans'>compare plans</a>.</p>">
-<summary-upgrade-yearly "<p>Get two months free (<b>save 15%</b>) by paying annually. <a>Upgrade (<b>$50</b>)</a></p><p>Time remaining on your current plan will be automatically deducted from the cost of the upgrade.</p>">
+<summary-free-plan "您還沒有訂閱。<a>立即訂閱！</a></p>">
+<summary-active-plan "您目前訂閱 <code>{{ $planName }}</code> 方案。 <a>取消訂閱</a> 或 <a href='/plans'>比較方案</a>。</p>">
+<summary-upgrade-yearly "<p>支付全年並獲2個月免費(<b>save 15%</b>)！ <a>升級 (<b>每年$50美元</b>)</a></p><p>目前訂閱方案的剩餘時間將自動從升級成本中扣除。</p>">
 <summary-ending-plan "You're currently on the <code>{{ $planName }}</code> plan. It's <b>set to cancel</b> at the end of the current billing period. <a>Resubscribe</a></p>">
 <summary-overdue-plan "Your subscription is inactive due to an overdue payment. You can fix this by updating your card or getting in touch with us at <b>hello@coggle.it</b>.</p>">
 
